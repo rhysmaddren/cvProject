@@ -2,5 +2,21 @@
 header {
     background-color: black;
     padding: 20px;
+    font-size: 2em;
+    color: white;
+}
 
+footer {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: white;    
+}
+
+.headertxt {
+    font-size: 0.5em;
+}
+
+.subheading {
+    font-size: 1em;
 }
