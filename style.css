@@ -1,8 +1,32 @@
+* {
+    box-sizing: border-box;
+  }
+
+html, body {
+    height: 100%;
+  }
+
+body { 
+    margin:0px; 
+    padding:0px;
+    display: flex;
+    flex-direction: column;
+ }
+
+ main {
+    flex: 1 0 auto;
+}
+
+section {
+    margin: 0 10px 0 10px;
+
+}
 
 header {
     background-color: black;
     padding: 20px;
     font-size: 2em;
+    font-family: Cambria, Cochin, Georgia, Times, serif;
     color: white;
 }
 
@@ -10,7 +34,8 @@ footer {
     background-color: black;
     padding: 20px;
     text-align: center;
-    color: white;    
+    color: white;
+    flex-shrink: 0;   
 }
 
 .headertxt {
@@ -19,4 +44,14 @@ footer {
 
 .subheading {
     font-size: 1em;
+    text-align: center;
+}
+
+
+
+
+.clearfix::after {
+    content:"";
+    display:table;
+    clear: both;
 }
