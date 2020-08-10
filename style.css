@@ -31,6 +31,12 @@ header {
     font-size: 0.5em;
 }
 
+.sticky {
+    position: fixed; /** added by js **/
+    top: 0;
+    width: 100%
+  }
+
 .bannerimg {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("banner.jpg");
   height: 100vh;
@@ -131,7 +137,9 @@ li {
     animation: fadeIn ease 3s forwards;
     -webkit-animation: fadeIn ease 3s forwards;
     }
-    
+
+/** fadein browser support **/
+
     @keyframes fadeIn {
     0% {opacity:0;}
     100% {opacity:1;}
