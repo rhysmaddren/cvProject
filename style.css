@@ -20,18 +20,17 @@ html, body {
 header {
     background-color: #23272a ;
     padding: 0px 10px 10px 10px;
-    font-size: 3.5em;
+    font-size: 2.5em;
     color: white;
     -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.7);
     -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.7);
     box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.7);
-    height: 140px;
+    height: 100px;
 }
 
 .headertxt {
     font-size: 0.5em;
     font-family: poppinslight;
-    margin-top: -1%;
 }
 
 .sticky {
@@ -49,7 +48,7 @@ header {
     display: block;
     position: absolute;
     right: 30px;
-    top: 25px;
+    top: 10px;
     opacity: 0.0;
     animation: fadeIn ease 1s forwards;
     -webkit-animation: fadeIn ease 1s forwards;
@@ -91,7 +90,7 @@ body {
 
 main {
     flex: 1 0 auto; /** sticky footer **/
-    width: 85%;
+    width: 100%;
     background-color: #2c2f33;
     margin: auto;
 }
@@ -110,7 +109,7 @@ p {
     text-align: left;
     margin: auto;
     margin-bottom: 20px;
-    font-size: 2em;
+    font-size: 1.5em;
     font-family: poppinslight;
 }
 
@@ -148,7 +147,7 @@ li {
 }
 
 .stickyfix {
-    padding-top: 140px;
+    padding-top: 100px;
 
 }
 
