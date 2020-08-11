@@ -19,23 +19,42 @@ html, body {
 
 header {
     background-color: #23272a ;
-    padding: 35px;
+    padding: 0px 10px 10px 10px;
     font-size: 3.5em;
     color: white;
     -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.7);
     -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.7);
     box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.7);
+    height: 140px;
 }
 
 .headertxt {
     font-size: 0.5em;
+    font-family: poppinslight;
+    margin-top: -1%;
 }
 
 .sticky {
-    position: fixed; /** added by js **/
+    position: fixed; /** added and removed by js **/
     top: 0;
     width: 100%
   }
+
+  .iconstop {
+    display: none;
+
+  }
+
+  .icon {
+    display: block;
+    position: absolute;
+    right: 30px;
+    top: 25px;
+    opacity: 0.0;
+    animation: fadeIn ease 1s forwards;
+    -webkit-animation: fadeIn ease 1s forwards;
+  }
+
 
 .bannerimg {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("banner.jpg");
@@ -53,7 +72,8 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 5em;
+    font-size: 5vmax;
+
 }
 
 
@@ -125,6 +145,11 @@ li {
     content:"";
     display:table;
     clear: both;
+}
+
+.stickyfix {
+    padding-top: 140px;
+
 }
 
 /** fadein effect **/
