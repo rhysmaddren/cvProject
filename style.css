@@ -15,12 +15,13 @@
 html, body {
     height: 100%;
     font-family: poppins, Georgia, Times, serif;
+    scroll-padding-top: 100px;
 }
 
 header {
     background-color: #23272a ;
     padding: 0px 10px 10px 10px;
-    font-size: 2.5em;
+    font-size: 2.3em;
     color: white;
     -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.7);
     -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.7);
@@ -47,7 +48,7 @@ header {
   .icon {
     display: block;
     position: absolute;
-    right: 30px;
+    right: 10px;
     top: 10px;
     opacity: 0.0;
     animation: fadeIn ease 1s forwards;
@@ -109,7 +110,7 @@ p {
     text-align: left;
     margin: auto;
     margin-bottom: 20px;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-family: poppinslight;
 }
 
@@ -188,3 +189,4 @@ li {
     0% {opacity:0;}
     100% {opacity:1;}
     }
+
