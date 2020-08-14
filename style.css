@@ -220,6 +220,10 @@ p {
   font-size: 1.2em
 }
 
+a {
+  color: white;
+}
+
 footer {
     background-color: #23272a ;
     padding: 20px;
