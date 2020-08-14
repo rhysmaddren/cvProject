@@ -8,9 +8,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rhys Maddren</title>
     <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://kit.fontawesome.com/636f14496a.js" crossorigin="anonymous"></script>
   </head>
   
   <body>
+
+    
+    <header class="header">
+      <nav>
+        <a href="" class="logo">Rhys Maddren</a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+          
+     
+
     
     <div class="bannerimg">
       <div class="bannertxt">
@@ -18,35 +37,33 @@
       </div>
     </div>
     
-    <header id="myHeader">
-        Rhys Maddren <div class="headertxt"> aspiring frontend developer </div> 
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon iconstop" id="menuicon" width="80" height="80" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z"/>
-          <line x1="4" y1="6" x2="20" y2="6" />
-          <line x1="4" y1="12" x2="20" y2="12" />
-          <line x1="4" y1="18" x2="20" y2="18" />
-        </svg> 
-       <nav id="mylinks" class="topnav">
-          <a href="#about">About</a>
-          <a href="#experience">Experience</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
-        </nav>  
-    </header>
-
-    
     <div class="container"> 
       <main>
         <section>
           <h1 id="about" class="subheading">About me</h1>
-          <p>I'm a (in progress) frontend developer based in Hartlepool, UK. I studied biological sciences at Lancaster university, graduating with a 2:1.</p>
+          <p>I'm an (in progress) frontend developer based in Hartlepool, UK. I studied biological sciences at Lancaster university, graduating with a 2:1.</p>
           <p>Computers have always been a big part of my life. Building PCs, video editing, competitive esports and studying (of course). The next logical step was learning to code.</p>
-          <img src="rhysmaddrenesports.jpg" alt="Picture of Rhys Maddren" class="esportimage">
+          <a href="https://www.yorkpress.co.uk/news/15686616.first-of-its-kind-gaming-comp-held-at-york-uni/" target="_blank">
+            <img src="rhysmaddrenesports.jpg" alt="Picture of Rhys Maddren" class="esportimage">
+          </a>
         </section>
         
         <section>
           <h2 id="experience" class="subheading">My experience</h2>
-          <p>Vestibulum vitae risus convallis, bibendum dui sed, molestie neque. Proin id nibh maximus, ultrices nisl quis, pharetra tellus. Donec nec orci eu erat elementum dictum. Curabitur risus massa, porta at urna nec, auctor fringilla neque. Pellentesque at rhoncus arcu, in lacinia est. Ut nec consectetur enim. Etiam finibus nulla metus, congue porta elit efficitur in. Nam commodo ut neque vel tincidunt. </p>
+          <p>I started learning HTML, CSS and Javascript in June 2020 as a hobby. I'm now effectively learning full time, working on projects and applying for junior developer positions.</p>
+          <p>Though I'd learnt some basic coding at college, I started again from scratch. Beginning with the frontend development course on Treehouse, reading and completing practice exercises. I'm now working on a personal project.</p>
+          <ul class="imgcontainer">
+            <li class="aboutimg">
+              <a href="https://teamtreehouse.com/rhysmaddren" target="_blank">
+                <img src="treehouse.png" alt="Treehouse logo">
+              </a>
+            </li>
+            <li class="aboutimg">
+              <a href="https://www.amazon.co.uk/Web-Design-HTML-JavaScript-jQuery/dp/1118907442/ref=sr_1_1?dchild=1&keywords=Web+design+book&qid=1597332721&sr=8-1" target="_blank">
+                <img src="frontend.jpg" alt="HTML and CSS book">
+              </a>
+            </li>
+          </ul>
         </section>
         
         <section>
@@ -55,9 +72,22 @@
         
         <section>
           <h4 id="contact" class="subheading">Get in touch</h4>
-          <ul>
-            <li>Phone: 07737083574</li>
-            <li>Email: Rhysmaddren@hotmail.co.uk</li>
+          <ul class="imgcontainer">
+            <li>
+              <a href="https://www.linkedin.com/in/rhys-maddren-133a7b151/" target="_blank">
+                <i class="fab fa-3x fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:rhysmaddren@hotmail.co.uk">
+                <i class="fas fa-3x fa-envelope-square"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/rhysmaddren">
+                <i class="fab fa-3x fa-github-square"></i>
+              </a>
+            </li>
           </ul>
         </section>
       </main>
