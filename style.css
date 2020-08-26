@@ -18,7 +18,7 @@ html,
 body {
   height: 100%;
   font-family: poppins, Georgia, Times, serif;
-  scroll-padding-top: 68px;
+  /** scroll-padding-top: 68px; **/
   width: 100%;
 }
 
@@ -186,7 +186,8 @@ main {
 .subheading {
   font-size: 2em;
   text-align: center;
-  margin: 50px 0px 20px 0px;
+  margin: 20px 0px 20px 0px;
+  padding-top: 68px;
 }
 
 .minisubheading {
@@ -261,6 +262,10 @@ li a img:active {
 
 li {
   list-style-type: none;
+}
+
+.hidelink {
+  display: none;
 }
 
 .clearfix::after {
